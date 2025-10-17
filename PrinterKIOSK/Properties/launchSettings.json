@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "PrinterKIOSK": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "LD_PRELOAD": "/usr/lib/x86_64-linux-gnu/libudev.so.1"
+      }
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "environmentVariables": {
+        "LD_PRELOAD": "/usr/lib/x86_64-linux-gnu/libudev.so.1"
+      },
+      "distributionName": ""
+    }
+  }
+}
