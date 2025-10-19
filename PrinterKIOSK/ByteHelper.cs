@@ -168,6 +168,9 @@ namespace PrinterKIOSK
         public static readonly byte[] CheckFullCut = new byte[] { 0x1B, 0x69 };//our works the same
         public static readonly byte[] CheckPartialCut = new byte[] { 0x1B, 0x6D };//our works the same
 
+        public static readonly byte[] CheckGetProductInformation = new byte[] { 0x1D, 0x49, 5 };//get the product model
+        public static readonly byte[] CheckGetPrinterStatus = new byte[] { 0x10, 0x04 };// 0x10, 0x04?0xA4? this usually returns 
+
         public static readonly byte[] CheckBoldOn = new byte[] { 0x1B, 0x47 };//Works to turn on
         public static readonly byte[] CheckBoldOff = new byte[] { 0x1B, 0x48 };//Works to turn off
 
